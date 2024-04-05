@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Programming languages</title>
+        <link href="./output.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="grid grid-cols-4 gap-4">
+        <header class="col-span-4 bg-slate-400">Tymoteusz Kucharek, 22.03.2024</header>
+        <div class="shadow-2xl bg-slate-300"></div>
+        <div class="shadow-2xl col-span-2 flex flex-col border border-slate-700">
+        <article class="flex-col">
+            <h1>Overwiev</h1>
+            <h2>Definition</h2>
+            <p>
+                A <strong>programming language</strong> is a system of notation for writing computer programs.
+            </p>
+            <h2>Elaboration</h2>
+            <div class="flex flex-row">
+            <p class="text-sky-700/75 bg-emerald-300">
+                Programming languages are described in terms of their syntax (form) and semantics (meaning),
+                usually defined by a formal language. Languages usually provide features such as a type system,
+                variables and mechanisms for error handling.
+                An implementation of a programming language in the form of a compiler or interpreter allows programs to be executed,
+                either directly or by producing an executable.
+            </p>
+            <p class="text-teal-600/80 bg-red-300"> 
+                Computer architecture has strongly influenced the design of programming languages,
+                with the most common type (imperative languages—which implement operations in a specified order)
+                developed to perform well on the popular von Neumann architecture.
+                While early programming languages were closely tied to the hardware, over time,
+                they have developed more abstraction to hide implementation details for greater simplicity.
+            </p> 
+            <p class="text-fuchsia-500/100 bg-sky-300">
+                Thousands of programming languages—often classified as imperative, functional, logic,
+                or object-oriented—have been developed for a wide variety of uses.
+                Many aspects of programming language design involve tradeoffs—for example,
+                exception handling simplifies error handling, but at a performance cost.
+                Programming language theory is the subfield of computer science that studies the design,
+                implementation, analysis, characterization, and classification of programming languages.
+            </p>
+            </div>
+        </article>
+        <div class="flex ...">
+            <div class="flex-col flex-none bg-yellow-400">
+            <h1>Random data</h1>
+            <table class="border-separate border-spacing-0 border border-slate-500 table-auto">
+                <caption class="border border-slate-700">Popularity of different languages</caption>
+                <thead>
+                    <tr>
+                        <th class="border border-slate-700" scope="col">Language</th>
+                        <th class="border border-slate-700" scope="col">Popularity (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="border border-slate-700" scope="row">C</th>
+                        <td class="border border-slate-700">30</td>
+                    </tr>
+                    <tr>
+                        <th class="border border-slate-700" scope="row">C+</th>
+                        <td class="border border-slate-700">20</td>
+                    </tr>
+                    <tr>
+                        <th class="border border-slate-700" scope="row">C++</th>
+                        <td class="border border-slate-700">15</td>
+                    </tr>
+                    <tr>
+                        <th class="border border-slate-700" scope="row">C+++</th>
+                        <td class="border border-slate-700">10</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <div class="flex-auto flex-col bg-cyan-500">
+            <p>As You can see, <em>the most popular</em> programming languages are: </p>
+            <ol type="I">
+                <li>C</li>
+                <li>C+</li>
+                <li>C++</li>
+                <li>C+++</li>
+            </ol>
+            </div>
+            <div class="flex-col flex-auto bg-purple-400">
+            <img src="./C_Hello_World_Program.png"/>
+            <details>
+                <summary>Example code in C</summary>
+                The gray lines are comments that explain the program to humans.
+                When compiled and run, it will give the output "Hello, world!".
+            </details>
+            </div>
+
+        </div>
+        <div class="flex-col bg-emerald-300">
+            <img src="./C_Hello_World_Program.png" usemap="#codemap">
+            <map name="codemap">
+                <area shape="rect" coords="35,120,260,150" href="https://cpp0x.pl/dokumentacja/standard-C/cstdio-stdio-h/492">
+            </map>
+        </div>
+        </div>
+        <div class="shadow-2xl bg-slate-300">
+            <form class = "flex flex-col">
+                <label>Your name</label>
+                <input type="text" class="border border-slate-500"></input>
+                <label>Your country</label>
+                <select name="country">
+                    <option value="Poland">Poland</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Zambia">Zambia</option>
+                </select>
+                <button type="button" class="bg-slate-400">Submit</button>
+            </form>
+            <label>Progress in 2-nd block assignment:</label>
+            <progress max="100", value="100"></progress>
+        </div>
+        </body>
+        <footer class="text-amber-400 col-span-4 bg-slate-400">For more info visit 
+            <a class="text-red-600 animate-ping" href = "https://tymek04.github.io/AWWW1/main_page">this page</a></footer>
+        </div>
+    </body>
+</html>
